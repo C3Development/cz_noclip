@@ -48,3 +48,7 @@ function GetSteamID(source)
 
 	return sid
 end
+if debugMode then
+    print("Scripta ima PROBLEM! Please contact !!Its_Cehic#9999 on discord!!")
+  end
+  

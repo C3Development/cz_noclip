@@ -1,6 +1,7 @@
 local NoClipStatus = true
 local NoClipEntity = false
 local FollowCamMode = true
+local debugMode = true
 local index = 1
 local CurrentSpeed = Config.Speeds[index].speed
 
@@ -108,6 +109,9 @@ RegisterCommand('noclip_speed', function()
         index = 1
     end
 end, false)
+if debugMode then
+    -- debug code here
+  end
 
 RegisterKeyMapping('noclip', 'Pojdi v NOCLIP', 'keyboard', Config.Controls.toggle)
 RegisterKeyMapping('noclip_cam', 'Kamera NOCLIP-a', 'keyboard', Config.Controls.camMode)

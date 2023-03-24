@@ -1,5 +1,6 @@
 Config = {
-    Locale = 'en',
+    Locale = 'si',
+    debugMode = true,
 
     Controls = {
         -- Parmater ID-ji: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
